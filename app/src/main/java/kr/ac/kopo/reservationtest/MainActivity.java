@@ -48,6 +48,10 @@ public class MainActivity extends AppCompatActivity {
         timePicker = findViewById(R.id.pick);
         textResult = findViewById(R.id.text_result);
 
+        rg.setVisibility(View.INVISIBLE);
+        calendar.setVisibility(View.INVISIBLE);
+        timePicker.setVisibility(View.INVISIBLE);
+
         calendar.setVisibility(View.INVISIBLE);
         timePicker.setVisibility(View.INVISIBLE);
         rbDate.setOnClickListener(rbListener);
